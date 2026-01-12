@@ -11,7 +11,7 @@ const msalConfig = {
     auth: {
         clientId: CLIENT_ID,
         authority: "https://login.microsoftonline.com/common",
-        redirectUri: window.location.origin // URL do seu site hospedado
+        redirectUri: "https://caua-vosc.github.io/Relatorio-RFI-NC/"
     }
 };
 
@@ -84,4 +84,5 @@ function b64toBlob(b64Data, contentType = 'image/jpeg', sliceSize = 512) {
 // ------------------------------
 // FIM DO ARQUIVO
 // ------------------------------
+
 
