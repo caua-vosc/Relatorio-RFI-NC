@@ -4,7 +4,7 @@
 
 // ⚠️ CLIENT_ID placeholder para GitHub público
 // Substitua localmente ou no deploy pelo seu Client ID real do Azure
-const CLIENT_ID = "SEU_CLIENT_ID_AQUI";
+const CLIENT_ID = "0cbcd0c7-9110-403a-aa98-7c6ae5d5ca1e";
 
 // Configuração do MSAL
 const msalConfig = {
@@ -84,3 +84,4 @@ function b64toBlob(b64Data, contentType = 'image/jpeg', sliceSize = 512) {
 // ------------------------------
 // FIM DO ARQUIVO
 // ------------------------------
+
